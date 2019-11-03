@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <body> <!--body open-->
-
-            <div class="heading"> <!--heading open-->
-                <div class="navBar"> <!--navBar open-->
-                    <nav> <!--navigation open-->
-                        <ul class="nav"> <!--list open-->
-                            <li><a href='/index.html'>Home</a></li>
-                            <li><a href='/projects.html'>Projects</a></li>
-                            <li><a href='/day-in-the-life.html'>Day In The Life</a></li>
-                            <li><a href='/contact.html'>Contact</a></li>
-                        </ul> <!--list close-->
-                    </nav> <!--navigation close-->
-                </div> <!--navBar close-->
-            </div> <!--heading close-->
-
-            <header><!--header open-->
-                <div class='info'> <!--div open-->
-                    <h1>Rae Glazier</h1>
-                    <h2>Aspiring Full Stack Web Developer</h2>
-                    <h3>Aspring <a href='/day-in-the-life.html'>Artist</a></h3>
-                </div> <!--div close-->
-            </header><!--header close-->
-
-            <footer class="footer"> <!--footer opens-->
-                <p>Copyright Rae Glazier 2019</p>
-                <!--social media links-->
-            </footer> <!--footer closes-->
-            
-        </body> <!--body close-->
+        <script src="https://kit.fontawesome.com/a6e4a25591.js" crossorigin="anonymous"></script>  <!--font awesome-->
     </head>
+
+    <body> <!--body open-->
+
+        <div class="heading"> <!--heading open-->
+            <div class="navBar"> <!--navBar open-->
+                <div class="logo">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <nav> <!--navigation open-->
+                    <ul class="nav"> <!--list open-->
+                        <li><a href='/index.html'>Home</a></li>
+                        <li><a href='/projects.html'>Projects</a></li>
+                        <li><a href='/day-in-the-life.html'>Day In The Life</a></li>
+                        <li><a href='/contact.html'>Contact</a></li>
+                    </ul> <!--list close-->
+                </nav> <!--navigation close-->
+                <div class="social">
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div> <!--navBar close-->
+        </div> <!--heading close-->
+
+        <header><!--header open-->
+            <div class='info'> <!--div open-->
+                <h1>Rae Glazier</h1>
+                <h2>Aspiring Full Stack Web Developer</h2>
+                <h3>Aspring <a href='/day-in-the-life.html'>Artist</a></h3>
+            </div> <!--div close-->
+        </header><!--header close-->
+
+        <div class="blurb">
+            <img src="/img/profile pic 2019.jpg" alt="profile pic">
+            <p> I'd love to hear from you.</p>
+        </div>
+
+        <form action="#"> <!--form opens-->
+            Name:<br>
+            <input type='text' name='name'><br>
+            Email:<br>
+            <input type="text" name="email"><br>
+            Phone Number:<br>
+            <input type="text" name="phonenumber"><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <input type="submit" value='Submit'>
+        </form> <!--form closes-->
+
+        <footer class="footer"> <!--footer opens-->
+            <p>Copyright Rae Glazier 2019</p>
+        </footer> <!--footer closes-->
+
+    </body> <!--body close-->
 </html>
