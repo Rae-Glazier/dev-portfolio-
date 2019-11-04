@@ -2,6 +2,7 @@
   margin: 1%;
   padding: 1%;
   text-align: center;
+  border-bottom: 2px dashed grey;
 }
 .info a {
   text-decoration: none;
@@ -192,7 +193,6 @@ body {
   padding: 1% 2%;
 }
 .about {
-  border-top: 2px dashed grey;
   border-bottom: 2px dashed grey;
   display: flex;
 }
@@ -208,4 +208,109 @@ body {
   position: initial;
   clip: rect(100px, 0px, 100px, 0px);
   margin: 5%;
+}
+.portfolio {
+  border-bottom: 2px dashed grey;
+}
+.portfolio div {
+  border: 2px dashed grey;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  margin: 1%;
+  padding: 1%;
+}
+.portfolio .portOne {
+  width: 50%;
+  margin: 5%;
+  padding: 2%;
+  align-content: center;
+  margin-left: 25%;
+  font-size: 1.5rem;
+}
+.portfolio .portTwo {
+  width: 50%;
+  margin: 5%;
+  padding: 2%;
+  align-content: center;
+  margin-left: 25%;
+  font-size: 1.5rem;
+}
+.portfolio .portThree {
+  width: 50%;
+  margin: 5%;
+  padding: 2%;
+  align-content: center;
+  margin-left: 25%;
+  font-size: 1.5rem;
+}
+.portfolio .portFour {
+  width: 50%;
+  margin: 5%;
+  padding: 2%;
+  align-content: center;
+  margin-left: 25%;
+  font-size: 1.5rem;
+}
+.portfolio .portFive {
+  width: 50%;
+  margin: 5%;
+  padding: 2%;
+  align-content: center;
+  margin-left: 25%;
+  font-size: 1.5rem;
+}
+.portfolio .portSix {
+  width: 50%;
+  margin: 5%;
+  padding: 2%;
+  align-content: center;
+  margin-left: 25%;
+  font-size: 1.5rem;
+}
+.comic {
+  display: flex;
+  border-bottom: 2px dashed grey;
+}
+.comic .panel {
+  border: 2px dashed grey;
+  width: 50%;
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+}
+.comic .notes {
+  border: 2px dashed grey;
+  width: 50%;
+  margin: 2%;
+  padding: 1%;
+  text-align: center;
+}
+.comic .notes p {
+  padding: 5%;
+  margin: 2%;
+}
+.comic .comments {
+  margin: 1%;
+}
+.contact {
+  border-bottom: 2px dashed grey;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .blurb {
+  width: 50%;
+  margin: 2%;
+  padding: 2%;
+  border: 2px dashed grey;
+}
+.contact .blurb p {
+  margin: 2%;
+  padding: 2%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.contact form {
+  margin: 2%;
+  padding: 15;
 }
