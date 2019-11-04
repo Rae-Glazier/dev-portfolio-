@@ -1,0 +1,43 @@
+// importing other less files
+
+@import 'comic';
+@import 'contact';
+@import 'header';
+@import 'mixins';
+@import 'navigation';
+@import 'project';
+@import 'reset';
+@import 'variables';
+
+body{
+    margin: 1% 3%;
+    padding: 1% 2%;
+}
+
+//about section
+.about{
+    // border: @test-border;
+    // background-color: @test-background;
+
+    border-top: @section-border;
+    border-bottom: @section-border;
+
+    display: flex;
+
+    p {
+        border: @section-border;
+
+        width: 50%;
+        margin: 5%;
+        padding: 2%;
+        font-size: 1.8rem;
+        text-align: center;
+        
+    }
+
+    img {
+        position: initial;
+        clip: rect(100px,0px,100px,0px);
+        margin: 5%;
+    }
+}
