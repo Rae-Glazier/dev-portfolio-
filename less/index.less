@@ -107,10 +107,47 @@ body{
         border: @section-border;
         width: 50%;
         margin: 2%;
+        padding: 1%;
         text-align: center;
+
+        p {
+            padding: 5%;
+            margin: 2%;
+        }
     }
 
     .comments{
         margin: 1%;
+    }
+}
+
+//contact
+
+.contact{
+    border-bottom: @section-border;
+
+    display: flex;
+    justify-content: space-between;
+
+    .blurb{
+        width: 50%;
+        margin: 2%;
+        padding: 2%;
+
+        border: @section-border;
+        // background-color: @test-background;
+
+        p {
+            margin: 2%;
+            padding: 2%;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+
+    form{
+        margin: 2%;
+        padding: 15;
+        justify-content: center;
     }
 }
