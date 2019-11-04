@@ -1,6 +1,6 @@
 .navBar{
-   background-color: red;
-   border: @test-border;
+//    background-color: red;
+//    border: @test-border;
 
    display: flex;
    margin: 1%;
@@ -8,25 +8,42 @@
    justify-content: space-between;
 
    i {
-       font-size: 30px;
+       font-size: 35px;
        padding: 1%;
+   }
+
+   .logo {
+       align-content: center;
+       margin: 1%;
+       padding: 2%;
+    //    border: @test-border;
    }
 
    .nav{
        display: flex;
        margin: 1%;
        padding: 1%;
+       padding-top: 15%;
        justify-content: space-evenly;
 
        li{
            padding: 3%;
-        //    margin: 15%;
+           margin: 0 15%;
            font-size: 1.5rem;
+           justify-content: space-between;
 
            a{
             text-decoration: none;
            }
        }
+   }
+
+   .social{
+    // border: @test-border;   
+    align-content: center;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
    }
 
 }
