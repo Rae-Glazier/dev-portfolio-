@@ -268,3 +268,23 @@ body {
   margin-left: 25%;
   font-size: 1.5rem;
 }
+.comic {
+  display: flex;
+  border-bottom: 2px dashed grey;
+}
+.comic .panel {
+  border: 2px dashed grey;
+  width: 50%;
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+}
+.comic .notes {
+  border: 2px dashed grey;
+  width: 50%;
+  margin: 2%;
+  text-align: center;
+}
+.comic .comments {
+  margin: 1%;
+}
